@@ -100,9 +100,9 @@ python simple_query_runner.py
 ## 📁 Project Structure
 
 ```
-simple-query-runner/
+simpleSQLTool/
 │
-├── simple_query_runner.py     # Main program file
+├── SimpleSQLtoolver3.py     # Main program file
 ├── README.md                  # You're reading it!
 ```
 
