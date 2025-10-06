@@ -4,7 +4,7 @@ A lightweight Python CLI app that mimics basic SQL-style querying from in-memory
 
 ---
 
-## 📌 Why I Built This
+##  Why I Built This
 
 This was built as a personal learning tool to:
 
@@ -17,7 +17,7 @@ It’s a beginner-friendly foundation for future exploration into databases, int
 
 ---
 
-## 💻 What It Does
+##  What It Does
 
 - Defines two example databases in memory: `People` and `Aliens`
 - Accepts user input with SQL-like commands:
@@ -30,9 +30,9 @@ It’s a beginner-friendly foundation for future exploration into databases, int
 
 ---
 
-## 📋 Example Usage
+##  Example Usage
 
-### 👤 User Input
+### User Input
 
 ```
 SELECT name
@@ -41,7 +41,7 @@ LIMIT 2
 DONE
 ```
 
-### 🖥️ Output
+### Output
 
 ```
 Zorglon
@@ -50,7 +50,7 @@ Bleep
 
 ---
 
-## ✅ Supported Commands
+##  Supported Commands
 
 | Command      | Description                                |
 |--------------|--------------------------------------------|
@@ -59,12 +59,12 @@ Bleep
 | `LIMIT`      | How many results to show                   |
 | `DONE`       | Ends input and runs the query              |
 
-**⚠️ Format matters!**  
+** Format matters!**  
 Commands must be entered one per line and end with `DONE`.
 
 ---
 
-## 🔧 Future Plans
+##  Future Plans
 
 - `WHERE` support (e.g., `WHERE age > 30`)
 - Allow selecting multiple fields: `SELECT name, age`
@@ -75,56 +75,9 @@ Commands must be entered one per line and end with `DONE`.
 
 ---
 
-## 🧠 Skills Practiced
-
-- Parsing strings and user input
-- Control flow and conditionals
-- Working with lists and dictionaries
-- Simulating backend behavior
-- CLI program structure and modularity
-
----
-
-## 🧪 Project Setup
-
 ### Requirements
 
 No libraries are required. Just Python 3.
 
-```bash
-python simple_query_runner.py
-```
 
----
 
-## 📁 Project Structure
-
-```
-simpleSQLTool/
-│
-├── SimpleSQLtoolver3.py     # Main program file
-├── README.md                  # You're reading it!
-```
-
----
-
-## 🌱 Potential Requirements.txt (For Future Versions)
-
-If you expand this project to include file input/output or JSON parsing, you might add:
-
-```txt
-# optional future additions
-pandas
-json
-click         # for CLI improvement
-```
-
----
-
-## 🙌 Feedback & Contribution
-
-Got suggestions? Want to build on top of this? Feel free to fork, clone, and remix this tool.
-
-Reach out or open a pull request with your ideas 💡
-
----
